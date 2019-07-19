@@ -8,7 +8,7 @@ using System.Web.Http.Description;
 namespace TimCo_tutorial.App_Start
 {
     public class AuthorizationOperationFilter : IOperationFilter
-    {
+    { 
         public void Apply(Operation operation, SchemaRegistry schemaRegistry, ApiDescription apiDescription)
         {
             if (operation.parameters == null)
