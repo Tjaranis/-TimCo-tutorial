@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCo-tutorial", "TimCo-tutorial\TimCo-tutorial.csproj", "{31E96706-FE6A-42C5-92CB-014AB85AF705}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TimCoData", "TimCoData\TimCoData.sqlproj", "{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCoDesktopUI", "TimCoDesktopUI\TimCoDesktopUI.csproj", "{ABDAF1DC-2CEC-4241-81A6-854E74C09AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{31E96706-FE6A-42C5-92CB-014AB85AF705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E96706-FE6A-42C5-92CB-014AB85AF705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E96706-FE6A-42C5-92CB-014AB85AF705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E59BE7E-F95C-4F3F-A745-71CAC3A370D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ABDAF1DC-2CEC-4241-81A6-854E74C09AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDAF1DC-2CEC-4241-81A6-854E74C09AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDAF1DC-2CEC-4241-81A6-854E74C09AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDAF1DC-2CEC-4241-81A6-854E74C09AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
