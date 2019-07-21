@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using TimCoDesktopUI.Helpers;
 using TimCoDesktopUI.ViewModels;
 
 namespace TimCoDesktopUI
@@ -15,7 +17,12 @@ namespace TimCoDesktopUI
 
         public Bootstrapper()
         {
-            Initialize();  
+            Initialize();
+
+            ConventionManager.AddElementConvention<PasswordBox>(
+            PasswordBoxHelper.BoundPasswordProperty,
+            "Password",
+            "PasswordChanged");
         }
 
         protected override void Configure()
